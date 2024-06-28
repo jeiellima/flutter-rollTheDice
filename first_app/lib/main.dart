@@ -3,9 +3,11 @@ import 'package:first_app/grandient_container.dart';
 
 void main() {
   runApp(
-    MaterialApp(
+    const MaterialApp(
       home: Scaffold(
-        body: GradientContainer(Colors.deepPurple, Colors.lightBlue),
+        body: GradientContainer(
+          Colors.deepPurple, 
+          Colors.lightBlue),
       ),
     ),
   );
